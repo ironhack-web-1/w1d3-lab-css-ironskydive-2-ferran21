@@ -4,10 +4,10 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font: Roboto;
+  font-family: Roboto;
   font-size: 10px;
   line-height: 3.5em;
-  weight: 300px;
+  weight: 300;
 }
 
   h1,
@@ -54,7 +54,7 @@ h4 {
 }
 
 h5 {
-    Size: 1.2em;
+    font-size: 1.2em;
     line-height: 1em;
 }
 
@@ -62,7 +62,7 @@ h5 {
     background-color: rgb(25, 33, 41);
 }
 
-.nav-bar a{
+.nav-bar a {
     color:white;
     text-decoration: none;
     font-size: 2em;
@@ -151,4 +151,7 @@ border-image-width: 125px;
 
 .footer ul {
     list-style: none;
+    padding: 0px;
+    margin: 0px;
+
 }
